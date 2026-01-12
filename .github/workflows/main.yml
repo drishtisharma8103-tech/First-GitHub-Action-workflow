@@ -11,4 +11,4 @@ jobs:
 
       steps:
         - name: Greetings
-           run: hello from "drishti"
+           run: echo "hello from drishti"

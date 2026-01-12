@@ -5,10 +5,10 @@ on:
       branches: [ main ]
 
 
-    jobs: 
-      demo:
-         runs-on: ubuntu-latest
+jobs: 
+    demo:
+      runs-on: ubuntu-latest
 
-         steps:
-           - name: Greetings
-             run: hello from "drishti"
+      steps:
+        - name: Greetings
+           run: hello from "drishti"
